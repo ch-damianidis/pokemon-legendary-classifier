@@ -2,7 +2,8 @@
 
 An end-to-end Machine Learning pipeline and interactive Shiny web application designed to predict whether a Pokémon belongs to the **Legendary** tier based strictly on underlying game mechanics, breeding biology, and base combat statistics—without ever revealing the Pokémon's identity or name.
 
-![Decision Tree](figures/decision_tree.png)
+<img width="1920" height="1112" alt="image" src="https://github.com/user-attachments/assets/64efa789-1674-458f-99c3-0556771be778" />
+
 
 ---
 
