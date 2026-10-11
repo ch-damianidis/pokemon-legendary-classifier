@@ -23,8 +23,8 @@ While base combat statistics (Base Stat Total) are high for Legendary species, t
 
 2. **Interpretable Decision Tree (`rpart`):**
    * A pruned tree achieved **98.8% accuracy** on the unseen test set using just two sequential splits:
-     * **Step 1:** $\text{base\_egg\_steps} \ge 15,000 \rightarrow \mathbf{Legendary}\ (98\%)$
-     * **Step 2:** For $\text{base\_egg\_steps} < 15,000$, if $\text{capture\_rate} < 9 \rightarrow \mathbf{Legendary}\ (67\%)$, else $\mathbf{Standard}\ (100\%)$.
+     * **Step 1:** If `base_egg_steps` >= 15,000 → **Legendary** (98% probability)
+     * **Step 2:** If `base_egg_steps` < 15,000 and `capture_rate` < 9 → **Legendary** (67% probability), else **Standard** (100% probability).
 
 3. **Random Forest Ensemble (`ranger`):**
    * **Test Accuracy:** 99.38% (160 / 161 correct predictions)
