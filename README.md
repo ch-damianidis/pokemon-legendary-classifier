@@ -62,6 +62,11 @@ The repository includes a modern dark-mode Shiny application for live blind-test
 * **Random Mystery Pokémon (🎲):** Automatically populates sliders with an unseen target from the dataset.
 * **Identity Reveal (👁️):** Spoiler-safe reveal button to compare the model's confidence against actual ground truth.
 
+<img width="1882" height="1030" alt="image" src="https://github.com/user-attachments/assets/6cd88a11-005c-459c-9d6b-b46ad27ca724" />
+<img width="1857" height="890" alt="image" src="https://github.com/user-attachments/assets/3c5dad6b-4bca-4584-8767-9ec777517b6f" />
+
+
+
 ---
 
 ## 📂 Repository Structure
